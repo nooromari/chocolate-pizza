@@ -42,17 +42,33 @@ nav p{
     background-repeat: repeat-x;
     
 }
+h2{
+    position: relative;
+    top:20px;
+}
+
+#print{
+    position: relative;
+}
+#print img{
+    display: inline-block;
+    right:50px;
+    padding-top: 5px;
+}
 
 .print{
-     position: relative;
-     /* display: inline-block; */
+     position: absolute;
+     display: inline-block; 
+     right: 0px;
+     /* float: right; */
      
-     float: right;top: 20px;
      
 
 }
 main div p{
+    position: relative;
     display:inline-block;
+         bottom:20px;
     
 }
 
@@ -67,11 +83,119 @@ main div p{
 
 }
 .sec1{
-    float:left;
+    
     position: absolute;
-    top:50%;
+    bottom: 100px;
+    right: 800px;
+    font-size:x-large;
+    line-height: 40px;
 
 }
+
+.sec2{
+
+    
+    position: absolute;
+    bottom: 100px;
+    right:30px;
+    font-size: x-large;
+    line-height: 40px;
+
+
+}
+
+#float{
+
+    position: relative;
+}
+
+#van {
+    position: relative;
+
+}
+
+#name{
+    display: inline-block;
+    position: absolute;
+    bottom: 30px;
+    font-size: larger;
+    margin-left: 15px;
+    font-weight: bold;
+
+
+    
+}
+
+#list{
+
+    width: 100%;
+}
+
+#aboutvan{
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+    font-size: larger;
+    margin-left: 15px;
+    
+    
+
+    
+
+    }
+
+button{
+    float: right;
+    margin-right: 40px;
+    margin-top: 20px;
+    left: 30px;
+    padding: 15px;
+    color:white;
+    background-color: brown;
+}
+
+#copy{
+
+    padding: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
