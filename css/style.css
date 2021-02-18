@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+
+}
+header{
+    padding: 20px;
+    position: relative;
+
+
+}
+
+h1{
+    display: inline-block;
+    position: absolute;
+    left: 6%;
+    top:0px;
+    
+    
+}
+nav p{
+    position: absolute;
+    display: inline-block;
+    top: 30px;
+    left:6%;
+
+}
+
+#logos{
+    position: absolute;
+
+    right: 0;
+    top: 30px;
+}
+
+.left{
+
+    margin-left:10px ;
+}
+
+.imgrepeat {
+    background-image: url("/img/hr-img.png");
+    background-repeat: repeat-x;
+    
+}
+
+.print{
+     position: relative;
+     /* display: inline-block; */
+     
+     float: right;top: 20px;
+     
+
+}
+main div p{
+    display:inline-block;
+    
+}
+
+.pizza{
+    width: 100%;
+
+}
+
+.bigprg{
+    margin:20px;
+    font-size: large;
+
+}
+.sec1{
+    float:left;
+    position: absolute;
+    top:50%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
